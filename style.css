@@ -1,0 +1,135 @@
+/* Definição de cores e tipografia */
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #555555;
+	background: url("fundo.webp");
+	margin: 0% 0% 0% 0%;
+	padding: 0% 0% 0% 0%;
+}
+
+/* Header */
+header {
+	background: url('cybertop.jpg') no-repeat right bottom;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 6% 0% 0% 6%;
+	margin: 6% 0% 3% 0%;
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+.informacao {
+	text-align: center;
+}
+
+/* Caixa de entrada */
+#input {
+	background-color: rgba(19, 18, 63, 0.358);
+	font-size: 26px;
+	color: rgb(251, 251, 251);
+	opacity: 0.6;
+	width: 72%;
+	height: 3%;
+	padding: 2% 2% 1% 6%;
+	margin: 2% 0% 0% 6%;
+	display: block;
+}
+
+/* Caixa de saída */
+#output {
+	background-color: rgba(3, 3, 5, 0.563);
+	font-size: 28px;
+	color: rgb(68, 255, 0);
+	opacity: 0.6;
+	width: 66%;
+	padding: 3% 3% 3% 3%;
+	margin: 3% 0% 0% 13%;
+	display: block;
+}
+
+/* Ajuste para telas menores */
+@media only screen and (max-width: 600px) {
+	body {
+		font-size: 16px;
+	
+	}
+}
+
+/* Imagem de fundo */
+main {
+	background: url("cryptografia.png") no-repeat center bottom;
+	padding: 0% 0% 0% 0%;
+	margin: 0% 0% 6% 0%;
+	
+}
+
+/* Botões */
+#botoes {
+	text-align: center;
+	padding: 2% 3% 0% 0%;
+	
+}
+
+#botaoCriptografar,
+#botaoDescriptografar {
+	width: auto;
+	padding: 1%;
+	background: rgb(255, 153, 0);
+	color: rgb(255, 255, 4);
+	font-weight: bold;
+	font-size: 22px;
+	border: none;
+	border-radius: 12px;
+	transition: 1s all;
+	cursor: pointer;
+	display: inline-block;
+	padding: 1%;
+	margin: 3% 10% 3% 10%;
+}
+
+#botaoCriptografar:hover,
+#botaoDescriptografar:hover {
+	background: rgb(255, 98, 0);
+	transform: scale(1.1);
+}
+
+#botaoCriptografar:active,
+#botaoDescriptografar:active {
+	background: rgb(255, 0, 0);
+	transform: scale(0.9);
+}
+.copiar {
+	text-align: center;
+	padding: 1.5% 0% 0% 0%;
+}
+ #copiar {
+	width: auto;
+	padding: 1% 3% 1% 3%;
+	margin: 0% 0% 0% 0%;
+	background: rgb(255, 153, 0);
+	color: rgb(255, 255, 4);
+	font-weight: bold;
+	font-size: 22px;
+	border: none;
+	border-radius: 12px;
+	transition: 1s all;
+	cursor: pointer;
+	float:center top;
+	
+}
+#copiar:hover {
+	background: rgb(255, 0, 0);
+	transform: scale(0.9);
+}
+
+#copiar:active {
+	background: rgb(145, 255, 0);
+	transform: scale(1.5);
+}
+
+/* Mensagem de informação */
+main p {
+	color:azure;
+	text-align: center;
+	padding: 0% 0% 3% 0%;
+	margin: 5% 0% 0% 0%;
+}
